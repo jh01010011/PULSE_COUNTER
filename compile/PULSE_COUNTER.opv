@@ -1,0 +1,1 @@
+ -erf "C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB08\compile\PULSE_COUNTER.erf" -work PULSE_COUNTER -lc C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/library.cfg -fl C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/projlib.cfg -o C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/compile -l "PULSE_COUNTER" -sve   -O2 -l COOLRUNNERII

@@ -1,0 +1,24 @@
+Active-HDL 9.3.2744.4995  2016-08-27 13:03:42
+
+Elaboration top modules:
+Verilog Module                TOP_HP_tb
+
+
+-----------------------------------------------------------------------------------------------------------------
+Verilog Module          | Library       | Info | Compiler Version         | Compilation Options
+-----------------------------------------------------------------------------------------------------------------
+TOP_HP_tb               | pulse_counter |      | 9.3.2744.4995  (Windows) | -l PULSE_COUNTER -O2 -l COOLRUNNERII
+TOP_HP                  | pulse_counter |      | 9.3.2744.4995  (Windows) | -l PULSE_COUNTER -O2 -l COOLRUNNERII
+FSM                     | pulse_counter |      | 9.3.2744.4995  (Windows) | -l PULSE_COUNTER -O2 -l COOLRUNNERII
+DATA_PATH               | pulse_counter |      | 9.3.2744.4995  (Windows) | -l PULSE_COUNTER -O2 -l COOLRUNNERII
+-----------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------------------------
+pulse_counter           | None
+-----------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow TOP_HP_tb
+

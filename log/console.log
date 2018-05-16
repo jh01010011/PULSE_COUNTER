@@ -1,0 +1,61 @@
+alog -O2 -l COOLRUNNERII -sve   -work PULSE_COUNTER $dsn/src/HDL_Source/Verilog/PRNG.v $dsn/src/HDL_Source/Verilog/FSM.v $dsn/src/HDL_Source/Verilog/DATA_PATH.v $dsn/src/HDL_Source/Verilog/TOP_HP.v $dsn/src/HDL_Source/Verilog/TOP_FP.v $dsn/src/HDL_Source/Verilog/FSM_FP.v $dsn/src/HDL_Source/Verilog/DATA_PATH_FP.v $dsn/src/HDL_Source/Verilog/FSM_TR.v $dsn/src/HDL_Source/Verilog/DATA_PATH_TR.v $dsn/src/HDL_Source/Verilog/TOP_TR.v $dsn/src/TestBench/PRNG_TB.v $dsn/src/TestBench/FSM_TB.v $dsn/src/TestBench/DATA_PATH_TB.v $dsn/src/TestBench/TOP_HP_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/TOP_TR.v
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/DATA_PATH_TR.v
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/FSM_TR.v
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/DATA_PATH_FP.v
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/FSM_FP.v
+# Error: VCP1010 Cannot find source file: C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/HDL_Source/Verilog/TOP_FP.v
+# Compile failure 6 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -l COOLRUNNERII -sve   -work PULSE_COUNTER $dsn/src/HDL_Source/Verilog/PRNG.v $dsn/src/HDL_Source/Verilog/FSM.v $dsn/src/HDL_Source/Verilog/DATA_PATH.v $dsn/src/HDL_Source/Verilog/TOP_HP.v $dsn/src/TestBench/PRNG_TB.v $dsn/src/TestBench/FSM_TB.v $dsn/src/TestBench/DATA_PATH_TB.v $dsn/src/TestBench/TOP_HP_TB.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: PRNG_tb FSM_tb DATA_PATH_tb TOP_HP_tb.
+# $root top modules: PRNG_tb FSM_tb DATA_PATH_tb TOP_HP_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim +access +r -advdataflow TOP_HP_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5281 kB (elbread=1023 elab2=4112 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\blueb\OneDrive\STUDY\DSF_HOME\LAB08\src\wave.asdb
+#  1:03 PM, Saturday, August 27, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: TOP_HP_tb (TOP_HP_tb)
+# add wave -noreg {/TOP_HP_tb/PULSE}
+# add wave -noreg {/TOP_HP_tb/SYS_CLK}
+# add wave -noreg {/TOP_HP_tb/A_RESET}
+# add wave -noreg {/TOP_HP_tb/OUT_REG}
+# add wave -noreg {/TOP_HP_tb/CLOCK_PERIOD}
+# add wave -noreg {/TOP_HP_tb/RUN_TIME}
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/blueb/OneDrive/STUDY/DSF_HOME/LAB08/src/wave.asdb'.
+run
+# RUNTIME: Info: RUNTIME_0068 TOP_HP_TB.v (70): $finish called.
+# KERNEL: Time: 6 us,  Iteration: 0,  Instance: /TOP_HP_tb,  Process: @INITIAL#SYSTEM_RUN_TIME@.
+# KERNEL: stopped at time: 6 us
+endsim
+#  Simulation has been stopped
+# Design: Design "TRANSMITTER_RECEIVER" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

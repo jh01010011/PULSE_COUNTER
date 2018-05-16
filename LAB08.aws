@@ -1,0 +1,16 @@
+[Version]
+Version=9.3
+[Designs]
+pulse_counter=.\PULSE_COUNTER.adf
+transmitter_receiver=.\TRANSMITTER_RECEIVER\TRANSMITTER_RECEIVER.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+pulse_counter=0
+transmitter_receiver=1
+[Settings]
+Active=transmitter_receiver

@@ -1,0 +1,4 @@
+.\src\HDL_Source\Verilog\FSM_TR.v
+.\src\HDL_Source\Verilog\DATA_PATH_TR.v
+.\src\HDL_Source\Verilog\TOP_TR.v
+.\src\TestBench\TOP_TR_TB.v

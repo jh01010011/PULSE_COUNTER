@@ -1,0 +1,8 @@
+"../src/TestBench/PRNG_TB.v"	1
+"../src/TestBench/FSM_TB.v"	1
+"../src/TestBench/DATA_PATH_TB.v"	1
+"../src/HDL_Source/Verilog/DATA_PATH.v"	1
+"../src/HDL_Source/Verilog/TOP_HP.v"	1
+"../src/TestBench/TOP_HP_TB.v"	1
+"../src/HDL_Source/Verilog/FSM.v"	1
+"../src/HDL_Source/Verilog/PRNG.v"	1

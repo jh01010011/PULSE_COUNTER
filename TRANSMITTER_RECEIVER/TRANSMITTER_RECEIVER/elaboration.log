@@ -1,0 +1,20 @@
+Active-HDL 9.3.2744.4995  2016-08-28 22:20:08
+
+Elaboration top modules:
+Verilog Module                TOP_TR_tb
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+Verilog Module          | Library              | Info | Compiler Version         | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------
+TOP_TR_tb               | transmitter_receiver |      | 9.3.2744.4995  (Windows) | -l TRANSMITTER_RECEIVER -O2 -l COOLRUNNERII
+TOP_TR                  | transmitter_receiver |      | 9.3.2744.4995  (Windows) | -l TRANSMITTER_RECEIVER -O2 -l COOLRUNNERII
+FSM                     | transmitter_receiver |      | 9.3.2744.4995  (Windows) | -l TRANSMITTER_RECEIVER -O2 -l COOLRUNNERII
+DATA_PATH               | transmitter_receiver |      | 9.3.2744.4995  (Windows) | -l TRANSMITTER_RECEIVER -O2 -l COOLRUNNERII
+-------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------------------------------------
+transmitter_receiver    | None
+-------------------------------------------------------------------------------------------------------------------------------

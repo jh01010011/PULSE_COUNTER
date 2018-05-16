@@ -1,0 +1,8 @@
+i<>.\src\HDL_Source\Verilog\PRNG.v
+i<>.\src\TestBench\PRNG_TB.v
+i<>.\src\HDL_Source\Verilog\FSM.v
+i<>.\src\TestBench\FSM_TB.v
+i<>.\src\HDL_Source\Verilog\DATA_PATH.v
+i<>.\src\TestBench\DATA_PATH_TB.v
+i<>.\src\HDL_Source\Verilog\TOP_HP.v
+i<>.\src\TestBench\TOP_HP_TB.v
